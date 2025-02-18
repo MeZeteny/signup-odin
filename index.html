@@ -8,7 +8,10 @@
 </head>
 <body>
     <div class="illustration">
-        <div class="logo-container"></div>
+        <div class="logo-container">
+            <img src="./images/odin-lined.png">
+            ODIN
+        </div>
         <img src="./images/halie-west-25xggax4bSA-unsplash.jpg" id="bg">
     </div>
 
@@ -22,31 +25,31 @@
         
         <form action="example" method="post">
             
-            <legend>Let's do this</legend>
+            <legend>Let's do this!</legend>
             
+            <div class="inputs">
+                <div class="left-input">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname">
 
-            <div class="left-input">
-                <label for="firstname">First Name:</label>
-                <input type="text" name="firstname" id="firstname">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
 
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
 
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" required>
+                <div class="right-input">
+                    <label for="lastname">Last name</label>
+                    <input type="text" name="lastname" id="lastname">
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone">
+
+                    <label for="password-again">Confirm Password</label>
+                    <input type="password" name="password-again" id="password-again">
+                </div>
             </div>
-
-            <div class="right-input">
-                <label for="lastname">Last name:</label>
-                <input type="text" name="lastname" id="lastname">
-
-                <label for="phone">Phone Number</label>
-                <input type="tel" name="phone" id="phone">
-
-                <label for="password-again">Confirm Password</label>
-                <input type="password" name="password-again" id="password-again">
-            </div>
-                
        
         </form>
 
