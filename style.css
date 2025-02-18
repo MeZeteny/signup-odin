@@ -1,0 +1,85 @@
+:root {
+    --padding: 32px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    background-color: #f9fafc;
+    overflow: hidden;
+}
+
+.illustration {
+    width: 75vh;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#bg {
+    width: inherit;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.quote {
+    padding-left: var(--padding);
+}
+
+form {
+    background-color: white;
+    height: 30vh;
+    width: 100%;
+    box-shadow: 0px 3px #e4e5e7;
+    margin: var(--padding) 0px 24px 0px;  
+}
+
+legend {
+    font-size: 22px;
+    padding-left: var(--padding);
+}
+
+a {
+    text-decoration: none;
+    color: #5d6a58;
+    font-weight: 700;
+}
+
+input {
+    margin-bottom: 8px;
+}
+
+button {
+    border-radius: 8px;
+    border-color: #596d48;
+    color: white;
+    background-color: #596d48;
+    height: 5.5vh;
+    width: 200px;   
+}
+
+.inputs {
+    display: flex;
+    gap: var(--padding);
+}
+
+.left-input {
+    display: flex;
+    flex-direction: column;
+    padding: 0px var(--padding);
+}
+
+.right-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    padding-left: var(--padding);
+}
