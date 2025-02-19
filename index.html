@@ -17,12 +17,15 @@
 
 
     <div id="left">
-        <div class="quote">This is not a real online service! You know you need to do something like this in your life to
-            help you realize your deepest dreams. 
-            <p>Sign up <em>now</em> to get started</p> 
-            <p>You <em>know</em> you want to</p>
+        <div class="quote-container">
+            <div class="quote">
+                <p id="long-text">This is not a real online service! You know you need to do something like this in your life to
+                help you realize your deepest dreams.</p>
+                <p id="signup-text">Sign up <em>now</em> to get started</p> 
+                <p id="youknow-text">You <em>know</em> you want to</p>
+            </div>
         </div>
-        
+       
         <form action="example" method="post">
             
             <legend>Let's do this!</legend>
@@ -47,7 +50,7 @@
                     <input type="tel" name="phone" id="phone">
 
                     <label for="password-again">Confirm Password</label>
-                    <input type="password" name="password-again" id="password-again">
+                    <input type="password" name="password-again" id="password-again" required>
                 </div>
             </div>
        
