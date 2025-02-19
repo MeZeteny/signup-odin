@@ -1,5 +1,14 @@
 :root {
     --padding: 6vh;
+    font-family: Roboto;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./Fonts/Roboto-VariableFont_wdth\,wght.ttf);
+
+    font-family: Norse-Bold;
+    src: url(./Fonts/Norse-Bold.otf);
 }
 
 body {
@@ -27,6 +36,7 @@ body {
     font-size: 80px;
     align-items: center;
     color: white;
+    font-family: Norse-Bold;
 }
 
 .logo-container img {
@@ -77,6 +87,7 @@ legend {
     font-size: 22px;
     padding-left: var(--padding);
     font-weight: 700;
+    padding-top: 16px;
 }
 
 a {
@@ -110,11 +121,13 @@ button {
     letter-spacing: 2px;
     align-items: center;
     min-height: 18vh;
+    gap: 30px;
 }
 
 .inputs input {
     width: 200px;
     height: 2.5vh;
+    margin-bottom: 20px;
 }
 
 .left-input {
