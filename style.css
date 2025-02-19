@@ -70,7 +70,7 @@ form {
     width: 100%;
     box-shadow: 0px 3px #e4e5e7;
     margin: var(--padding) 0px 24px 0px;  
-    gap: var(--padding);
+    gap: 32px;
 }
 
 legend {
